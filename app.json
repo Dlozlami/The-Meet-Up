@@ -1,0 +1,10 @@
+{
+  "expo": {
+    "scheme": "acme",
+    "web": {
+      "bundler": "metro"
+    },
+    "name": "the-meet-up",
+    "slug": "the-meet-up"
+  }
+}
