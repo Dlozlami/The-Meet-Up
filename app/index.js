@@ -5,7 +5,7 @@ export default function Page() {
     <View style={styles.container}>
       <View style={styles.main}>
         <Text style={styles.title}>Hello World</Text>
-        <Text style={styles.subtitle}>Dlozi L.er Mthethwa</Text>
+        <Text style={styles.subtitle}>Dlozi L.eer Mthethwa</Text>
       </View>
     </View>
   );
@@ -13,6 +13,7 @@ export default function Page() {
 
 const styles = StyleSheet.create({
   container: {
+    backgroundImage:'url("../assets/images/bg.jpg")',
     flex: 1,
     alignItems: "center",
     padding: 24,
