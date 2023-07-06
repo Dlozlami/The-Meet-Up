@@ -1,4 +1,3 @@
-import React from 'react';
 import { Tabs } from 'expo-router/tabs';
 import Icon from 'react-native-vector-icons/MaterialCommunityIcons';
 
