@@ -1,13 +1,15 @@
-import { StyleSheet, Text, View } from "react-native";
+import { ImageBackground,StyleSheet, Text, View } from "react-native";
 
 export default function Page() {
   return (
-    <View style={styles.container}>
-      <View style={styles.main}>
-        <Text style={styles.title}>Hello World</Text>
-        <Text style={styles.subtitle}>Dlozi L. Mthethwa</Text>
+    <ImageBackground source={require('../assets/images/bg.jpg')}  style={{width: '100%', height: '100%'}}>
+      <View style={styles.container}>
+        <View style={styles.main}>
+          <Text style={styles.title}>Hello World</Text>
+          <Text style={styles.subtitle}>Dlozi L.terrt Mthethwa</Text>
+        </View>
       </View>
-    </View>
+    </ImageBackground>
   );
 }
 
@@ -31,4 +33,5 @@ const styles = StyleSheet.create({
     fontSize: 36,
     color: "#38434D",
   },
+
 });
