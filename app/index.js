@@ -12,7 +12,7 @@ export default function Page() {
         <View>
           <Text style={styles.presents}>Codetribe Academy presents</Text>
           <View>
-          <Image source={require('../assets/images/meet-sign.png')}  style={styles.meetSign} />
+            <Image source={require('../assets/images/meet-sign.png')}  style={styles.meetSign} />
           </View>
           <Text style={styles.subtitle}>Soweto Campus</Text>
         </View>
